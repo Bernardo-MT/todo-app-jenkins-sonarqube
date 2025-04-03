@@ -1,5 +1,5 @@
 pipeline {
-    agent { label 'my-agent' }
+    agent { label 'sonarqube' }
     stages {
         stage('Build') {
             steps {
